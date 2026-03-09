@@ -4,3 +4,9 @@ procurei arquivos para o projeto
 encontrei 4 arquivos para ser analisado com o grupo
 conversamos sobre as estruturas
 
+09/03/2026
+abri um arquivo em PDF, transformei em texto e criou
+e salvou no drive.
+usando a biblioteca pypdf.
+
+
