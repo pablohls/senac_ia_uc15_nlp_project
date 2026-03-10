@@ -8,5 +8,5 @@ conversamos sobre as estruturas
 abri um arquivo em PDF, transformei em texto e criou
 e salvou no drive.
 usando a biblioteca pypdf.
-
+elaborei perguntas para projeto
 
