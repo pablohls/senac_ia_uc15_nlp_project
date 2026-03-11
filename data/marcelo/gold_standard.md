@@ -1,17 +1,3 @@
-
-05/03/2026
-procurei arquivos para o projeto
-encontrei 4 arquivos para ser analisado com o grupo
-conversamos sobre as estruturas
-
-09/03/2026
-abri um arquivo em PDF, transformei em texto e criou
-e salvou no drive.
-usando a biblioteca pypdf.
-elaborei perguntas para projeto
-
-10/03/2026
-conclui as 10 perguntas.
 1 - Qual é o índice de reajustamento previsto na cláusula  REAJUSTAMENTO?
  Os salários fixos ou parte fixa dos salários mistos serão reajustados a partir de 01 de setembro de 2025, a título de recomposição salarial, mediante a aplicação do índice de 6,00% (seis por cento) incidente sobre os salários já reajustados na Convenção 
 Coletiva de Trabalho 2024/2025,.
