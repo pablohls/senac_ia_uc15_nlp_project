@@ -13,3 +13,8 @@
     Ajuda os demais participantes com questões técnicas.
     Alinhamento de escolhas do grupo para prosseguirmos com as tarefas.
     Criação do *data/pablo/gold_standard.md*.
+
+11/03/2026
+
+    Criação do pipeline base seguindo a documentação do Langchain.
+
