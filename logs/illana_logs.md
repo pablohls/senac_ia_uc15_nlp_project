@@ -15,3 +15,6 @@ Trabalhei na lógica da extruturação de metadados utilizando o framework LangC
 
 12/03
 Realizei testes de Sanity Check comparando manualmente as saídas geradas pelo modelo de embeddings com o nosso Gold Standart. 
+
+13/03
+Concluí o Benchmarking de Acurácia. Utilizei um script de auditoria para confrontar as respostas da IA com o Gold Standard, calculando a taxa de assertividade final. Consolidei o repositório para entrega, garantindo que a documentação técnica reflita o progresso real do grupo.
