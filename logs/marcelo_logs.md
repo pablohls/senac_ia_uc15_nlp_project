@@ -21,3 +21,27 @@ configurei para instalar as bibliotecas
 -import os
 -from langchain_core.documents import Document
 li os conceitos e começando entender os codigos
+
+12/03/2026
+- montando o projeto.
+- organizado os comando.
+- teste de buscas e respostas.
+- feito algumas testes de consultas.
+
+Primeira pesquisa_similaridade
+# pergunta  " local sindilojas"
+
+# resposta: 
+Sindicato dos Comerciários de São Paulo 
+Rua Formosa, 99 Centro 
+CEP 01049-000 - São Paulo - SP 
+Fone:. 2121-5900 
+e-mail: 
+atendimento@comerciarios.org.br  
+Sindicato do Comércio Varejista e Lojista do Comércio de São 
+Paulo-Sindilojas-SP 
+Rua. Cel. Xavier de Toledo, 99 - Centro Histórico de São Paulo.
+
+- estudando mais sobre o script
+- tentando mudar e obter novos resultados
+- mudando os comandos e tentando ter outros resultados
