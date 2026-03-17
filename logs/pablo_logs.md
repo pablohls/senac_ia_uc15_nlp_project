@@ -18,3 +18,6 @@
 
     Criação do pipeline base seguindo a documentação do Langchain.
 
+12/03/2026
+
+    Tentativas de aprimoramento do pipeline e melhoria dos resultados.
