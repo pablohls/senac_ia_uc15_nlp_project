@@ -45,3 +45,12 @@ Rua. Cel. Xavier de Toledo, 99 - Centro Histórico de São Paulo.
 - estudando mais sobre o script
 - tentando mudar e obter novos resultados
 - mudando os comandos e tentando ter outros resultados
+
+16/03/2026
+
+- Testando a VM e testando
+- começando a fazer os teste no trabalho
+- começando a fazer o programa 
+- instalando os programas
+- VS Code
+- Pytorch
