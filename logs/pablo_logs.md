@@ -21,3 +21,7 @@
 12/03/2026
 
     Tentativas de aprimoramento do pipeline e melhoria dos resultados.
+
+16/03/2026
+
+    Configuração do setup na VM e inicio da analise do colab sugerido.
