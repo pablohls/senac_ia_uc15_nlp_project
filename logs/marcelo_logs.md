@@ -54,3 +54,18 @@ Rua. Cel. Xavier de Toledo, 99 - Centro Histórico de São Paulo.
 - instalando os programas
 - VS Code
 - Pytorch
+
+17/03/2026
+
+estou testando com o cross-encoders-marco-TinyBERT-L4
+
+dando o resultado 
+
+Cross-Encoder Relevance Scores:
+tensor([[ 0.8305],
+        [-0.9714],
+        [-0.8356],
+        [ 0.9199]])
+ 
+ vou testar outros modelos 
+ 
