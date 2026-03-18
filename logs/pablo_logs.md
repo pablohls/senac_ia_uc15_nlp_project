@@ -21,3 +21,11 @@
 12/03/2026
 
     Tentativas de aprimoramento do pipeline e melhoria dos resultados.
+
+16/03/2026
+
+    Configuração do setup na VM e inicio da analise do colab sugerido.
+
+17/03/2026
+
+    Criação do novo notebook "base_retrieve_rerank_notebook" usando de base colab fornecido em aula.
