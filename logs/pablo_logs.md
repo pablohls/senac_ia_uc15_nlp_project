@@ -29,3 +29,7 @@
 17/03/2026
 
     Criação do novo notebook "base_retrieve_rerank_notebook" usando de base colab fornecido em aula.
+
+18/03/2026
+
+    Avaliação dos notebooks de exemplo do professor e inicio da adaptação dos exemplos para meu caso..
