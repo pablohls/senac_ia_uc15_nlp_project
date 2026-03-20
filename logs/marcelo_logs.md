@@ -143,3 +143,258 @@ cláusula deverão ser pagas na folha de pagamento de janeiro/2026.
 2 - EMPREGADOS ADMITIDOS APÓS 1º DE SETEMBRO/24 - Aos empregados admitidos a 
 partir de 16 de setembro de 20 24 e até 15 de agosto de 20 25, o reajustamento será 
 proporcional, conforme tabelas a seguir: 
+
+
+20/03/2026
+
+baixei um pdf com 124 paginas para teste
+
+====================================================================================================
+Rank: 1
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_41_chunk_4
+Reranker score: 9.195508
+----------------------------------------------------------------------------------------------------
+Forense 17 6 6 
+Cargo 6: Perito Criminal Federal – Área 7: 
+Engenharia Civil 11 6 6 
+Cargo 7: Perito Criminal Federal – Área 11: 
+Engenharia Cartográfica 6 6 6 
+Cargo 8: Perito Criminal Federal – Área 12: 
+Medicina Legal 6 6 6 
+Cargo 9: Perito Criminal Federal – Área 16: Física 
+Forense 6 6 6
+
+====================================================================================================
+Rank: 2
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_29_chunk_4
+Reranker score: 8.835571
+----------------------------------------------------------------------------------------------------
+Elétrica/Eletrônica 6 6 6 
+Cargo 4: Perito Criminal Federal – Área 3: Informática Forense 69 11 69 
+Cargo 5: Perito Criminal Federal – Área 5: Geologia Forense 17 6 17 
+Cargo 6: Perito Criminal Federal – Área 7: Engenharia Civil 11 6 11 
+Cargo 7: Perito Criminal Federal – Área 11: Engenharia Cartográfica 6 6 6 
+Cargo 8: Perito Criminal Federal – Área 12: Medicina Legal 6 6 6 
+Cargo 9: Perito Crimi
+
+====================================================================================================
+Rank: 3
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_9_chunk_2
+Reranker score: 8.820333
+----------------------------------------------------------------------------------------------------
+Cargo 5: Perito Criminal Federal 
+– Área 5: Geologia Forense 3 1 1 5 
+Cargo 6: Perito Criminal Federal 
+– Área 7: Engenharia Civil 2 * * 2 
+Cargo 7: Perito Criminal Federal 
+– Área 11: Engenharia 
+Cartográfica 
+1 * * 1 
+Cargo 8: Perito Criminal Federal 
+– Área 12: Medicina Legal 1 * * 1 
+Cargo 9: Perito Criminal Federal 
+– Área 16: Física Forense 1 * * 1 
+Cargo 10: Perito Criminal 
+Federal – Área
+
+====================================================================================================
+Rank: 4
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_47_chunk_2
+Reranker score: 7.637212
+----------------------------------------------------------------------------------------------------
+Cargo 8: Perito Criminal Federal – Área 12: 
+Medicina Legal 6 6 6 
+Cargo 9: Perito Criminal Federal – Área 16: Física 
+Forense 6 6 6 
+Cargo 10: Perito Criminal Federal – Área 17: 
+Engenharia de Minas 6 6 6 
+Cargo 11: Perito Criminal Federal – Área 19: 
+Genética Forense 6 6 6 
+Cargo 12: Perito Criminal Federal – Área 20: 
+Engenharia Ambiental 6 6 6 
+Cargo 13: Perito Criminal Federal – Área 21: 
+Ant
+
+====================================================================================================
+Rank: 5
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_41_chunk_3
+Reranker score: 5.926595
+----------------------------------------------------------------------------------------------------
+aplicados os critérios de desempate de que tratam a alíneas “a” a “e” do subitem 18.10.1 deste edital; 
+b) para os cargos de Perito Criminal Federal: os candidatos não eliminados na avaliação médica, e mais 
+bem classificados, de acordo com a soma algébrica das notas obtidas na prova objetiva e na p rova 
+discursiva, até os quantitativos estabelecidos a seguir, aplicados os critérios de desempate
+
+
+
+
+
+
+
+
+Results for query: 'CARGO 7: PERITO CRIMINAL FEDERAL – ÁREA 11: ENGENHARIA CARTOGRÁFICA'
+====================================================================================================
+Rank: 1
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_41_chunk_4
+Reranker score: 9.150510
+----------------------------------------------------------------------------------------------------
+Forense 17 6 6 
+Cargo 6: Perito Criminal Federal – Área 7: 
+Engenharia Civil 11 6 6 
+Cargo 7: Perito Criminal Federal – Área 11: 
+Engenharia Cartográfica 6 6 6 
+Cargo 8: Perito Criminal Federal – Área 12: 
+Medicina Legal 6 6 6 
+Cargo 9: Perito Criminal Federal – Área 16: Física 
+Forense 6 6 6
+
+====================================================================================================
+Rank: 2
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_9_chunk_2
+Reranker score: 9.128271
+----------------------------------------------------------------------------------------------------
+Cargo 5: Perito Criminal Federal 
+– Área 5: Geologia Forense 3 1 1 5 
+Cargo 6: Perito Criminal Federal 
+– Área 7: Engenharia Civil 2 * * 2 
+Cargo 7: Perito Criminal Federal 
+– Área 11: Engenharia 
+Cartográfica 
+1 * * 1 
+Cargo 8: Perito Criminal Federal 
+– Área 12: Medicina Legal 1 * * 1 
+Cargo 9: Perito Criminal Federal 
+– Área 16: Física Forense 1 * * 1 
+Cargo 10: Perito Criminal 
+Federal – Área
+
+====================================================================================================
+Rank: 3
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_29_chunk_4
+Reranker score: 8.982639
+----------------------------------------------------------------------------------------------------
+Elétrica/Eletrônica 6 6 6 
+Cargo 4: Perito Criminal Federal – Área 3: Informática Forense 69 11 69 
+Cargo 5: Perito Criminal Federal – Área 5: Geologia Forense 17 6 17 
+Cargo 6: Perito Criminal Federal – Área 7: Engenharia Civil 11 6 11 
+Cargo 7: Perito Criminal Federal – Área 11: Engenharia Cartográfica 6 6 6 
+Cargo 8: Perito Criminal Federal – Área 12: Medicina Legal 6 6 6 
+Cargo 9: Perito Crimi
+
+====================================================================================================
+Rank: 4
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_47_chunk_2
+Reranker score: 8.136305
+----------------------------------------------------------------------------------------------------
+Cargo 8: Perito Criminal Federal – Área 12: 
+Medicina Legal 6 6 6 
+Cargo 9: Perito Criminal Federal – Área 16: Física 
+Forense 6 6 6 
+Cargo 10: Perito Criminal Federal – Área 17: 
+Engenharia de Minas 6 6 6 
+Cargo 11: Perito Criminal Federal – Área 19: 
+Genética Forense 6 6 6 
+Cargo 12: Perito Criminal Federal – Área 20: 
+Engenharia Ambiental 6 6 6 
+Cargo 13: Perito Criminal Federal – Área 21: 
+Ant
+
+====================================================================================================
+Rank: 5
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_42_chunk_1
+Reranker score: 7.667668
+----------------------------------------------------------------------------------------------------
+Cargo 10: Perito Criminal Federal – Área 17: 
+Engenharia de Minas 6 6 6 
+Cargo 11: Perito Criminal Federal – Área 19: 
+Genética Forense 6 6 6 
+Cargo 12: Perito Criminal Federal – Área 20: 
+Engenharia Ambiental 6 6 6 
+Cargo 13: Perito Criminal Federal – Área 21: 
+Antropologia Forense 6 6 6 
+Cargo 14: Perito Criminal Federal – Área 22: Meio 
+Ambiente 48 6 17 
+14.1.1 Caso o número de candidatos que t
+
+
+
+
+Results for query: 'CARGO 9: PERITO CRIMINAL FEDERAL – ÁREA 16: FÍSICA FORENSE'
+====================================================================================================
+Rank: 1
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_47_chunk_2
+Reranker score: 9.275080
+----------------------------------------------------------------------------------------------------
+Cargo 8: Perito Criminal Federal – Área 12: 
+Medicina Legal 6 6 6 
+Cargo 9: Perito Criminal Federal – Área 16: Física 
+Forense 6 6 6 
+Cargo 10: Perito Criminal Federal – Área 17: 
+Engenharia de Minas 6 6 6 
+Cargo 11: Perito Criminal Federal – Área 19: 
+Genética Forense 6 6 6 
+Cargo 12: Perito Criminal Federal – Área 20: 
+Engenharia Ambiental 6 6 6 
+Cargo 13: Perito Criminal Federal – Área 21: 
+Ant
+
+====================================================================================================
+Rank: 2
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_5_chunk_2
+Reranker score: 9.036112
+----------------------------------------------------------------------------------------------------
+CARGO 9: PERITO CRIMINAL FEDERAL – ÁREA 16: FÍSICA FORENSE 
+REQUISITO: diploma, devidamente registrado, de conclusão de curso de graduação de nível superior em 
+Física, fornecido por instituição de ensino superior reconhecida pelo MEC. 
+DESCRIÇÃO SUMÁRIA DAS ATIVIDADES: realizar exames periciais em locais de infração pe nal; realizar 
+exames em instrumentos utilizados, ou presumivelmente utilizado
+
+====================================================================================================
+Rank: 3
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_9_chunk_2
+Reranker score: 8.703821
+----------------------------------------------------------------------------------------------------
+Cargo 5: Perito Criminal Federal 
+– Área 5: Geologia Forense 3 1 1 5 
+Cargo 6: Perito Criminal Federal 
+– Área 7: Engenharia Civil 2 * * 2 
+Cargo 7: Perito Criminal Federal 
+– Área 11: Engenharia 
+Cartográfica 
+1 * * 1 
+Cargo 8: Perito Criminal Federal 
+– Área 12: Medicina Legal 1 * * 1 
+Cargo 9: Perito Criminal Federal 
+– Área 16: Física Forense 1 * * 1 
+Cargo 10: Perito Criminal 
+Federal – Área
+
+====================================================================================================
+Rank: 4
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_41_chunk_4
+Reranker score: 8.653947
+----------------------------------------------------------------------------------------------------
+Forense 17 6 6 
+Cargo 6: Perito Criminal Federal – Área 7: 
+Engenharia Civil 11 6 6 
+Cargo 7: Perito Criminal Federal – Área 11: 
+Engenharia Cartográfica 6 6 6 
+Cargo 8: Perito Criminal Federal – Área 12: 
+Medicina Legal 6 6 6 
+Cargo 9: Perito Criminal Federal – Área 16: Física 
+Forense 6 6 6
+
+====================================================================================================
+Rank: 5
+Source: /content/drive/MyDrive/UC15/PDF/Ed_1_PF_25_Abertura.pdf_page_29_chunk_4
+Reranker score: 8.653397
+----------------------------------------------------------------------------------------------------
+Elétrica/Eletrônica 6 6 6 
+Cargo 4: Perito Criminal Federal – Área 3: Informática Forense 69 11 69 
+Cargo 5: Perito Criminal Federal – Área 5: Geologia Forense 17 6 17 
+Cargo 6: Perito Criminal Federal – Área 7: Engenharia Civil 11 6 11 
+Cargo 7: Perito Criminal Federal – Área 11: Engenharia Cartográfica 6 6 6 
+Cargo 8: Perito Criminal Federal – Área 12: Medicina Legal 6 6 6 
+Cargo 9: Perito Crimi
+
+
