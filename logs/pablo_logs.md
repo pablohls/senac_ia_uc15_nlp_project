@@ -33,3 +33,7 @@
 18/03/2026
 
     Avaliação dos notebooks de exemplo do professor e inicio da adaptação dos exemplos para meu caso..
+
+19/03/2026
+
+    Conclusão do novo notebook com base no codigo exemplo do professor e também adicionei uma etapa de validação usando Mean Reciprocal Rank (MRR) e Revocação (Recall). 
