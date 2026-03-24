@@ -397,4 +397,14 @@ Cargo 7: Perito Criminal Federal – Área 11: Engenharia Cartográfica 6 6 6
 Cargo 8: Perito Criminal Federal – Área 12: Medicina Legal 6 6 6 
 Cargo 9: Perito Crimi
 
+23/03/2026
 
+preparando o codigo 
+DOCCANO
+preparando o 
+DOCKER
+tudo baixado e configurando  
+agora e so lutar
+docker container start doccano
+127.0.0.1:8000
+Deu certo  :)
