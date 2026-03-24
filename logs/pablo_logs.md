@@ -36,4 +36,8 @@
 
 19/03/2026
 
-    Conclusão do novo notebook com base no codigo exemplo do professor e também adicionei uma etapa de validação usando Mean Reciprocal Rank (MRR) e Revocação (Recall). 
+    Conclusão do novo notebook com base no codigo exemplo do professor e também adicionei uma etapa de validação usando Mean Reciprocal Rank (MRR) e Revocação (Recall).
+
+23/03/2026
+
+    Criação do docker e inicialização da configuração do doccano para utilização como "avaliador" do notebbok de trabalho. 
