@@ -408,3 +408,12 @@ agora e so lutar
 docker container start doccano
 127.0.0.1:8000
 Deu certo  :)
+
+
+24/03/2026
+
+apos configurar 
+fazer 4 perguntas
+apos fazer rotulos
+obtive estes resultados
+"label":[[2473,2761,"reajustamento previsto na cláusula  REAJUSTAMENTO"],[2904,3084,"1º da cláusula 1 sobre salários superiores a R$ 11.000,00"],[9867,9956,"salário de admissão para empregados em geral em empresas com mais de 20 empregados"],[10361,10411,"salário de admissão para empregados em geral em empresas com mais de 20 empregados"],[34045,34359,"garantia de emprego ao futuro aposentado prevista na cláusula 21"]],"Comments":[]}
