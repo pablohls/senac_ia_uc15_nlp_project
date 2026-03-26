@@ -44,4 +44,8 @@
     
 24/03/2026
 
-    Analise do "avaliador", realmente o mesmo não está muito bom, comecei a implementar um "is_relevant_llm", usando LLM as a judge, mas ainda precisa de ajustes. 
+    Analise do "avaliador", realmente o mesmo não está muito bom, comecei a implementar um "is_relevant_llm", usando LLM as a judge, mas ainda precisa de ajustes.
+
+25/03/2026
+
+    Continuei a implementação de um LLM as a Judge, sem sucesso devido a limitações. Refiz o meu gold standard para testar a acuracia, mas aparentemente não tive muita melhoria. 
