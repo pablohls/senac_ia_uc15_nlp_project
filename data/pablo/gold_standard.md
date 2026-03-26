@@ -1,39 +1,30 @@
-Questão 1: Reajuste Salarial Geral
-Pergunta: Qual é o índice de reajuste salarial estabelecido para os comerciários com salários fixos a partir de 1º de setembro de 2025?
-Resposta: O índice de reajuste é de 6,00% (seis por cento) incidente sobre os salários já reajustados na CCT 2024/2025.
+Pergunta: A partir de quando os salários fixos ou parte fixa dos salários serão reajustados?
+Resposta: Os salários fixos ou parte fixa dos salários mistos serão reajustados a partir de 01 de setembro de 2025.
 
-Questão 2: Piso Salarial (Empresas Gerais)
-Pergunta: Para empresas com mais de 20 empregados, qual é o salário de admissão fixado para "empregados em geral" a partir de 1º de setembro de 2025?
-Resposta: O salário de admissão para empregados em geral é de R$ 2.120,00.
+Pergunta: Qual o valor mínimo de contribuição deverá ser recolhido caso a filial sem capital e sem faturamento esteja estabelecida no município de São Paulo?
+Resposta: Caso a filial sem capital destacado e sem faturamento esteja estabelecida no município de São Paulo, e sua matriz não ter a representação do Sindilojas, deverá recolher a contribuição pelo valor mínimo de R$ 295,00 (duzentos e noventa e cinco reais).
 
-Questão 3: Garantia do Comissionista
-Pergunta: Qual o valor da remuneração mínima garantida aos "comissionistas puros" em empresas com mais de 20 empregados?
-Resposta: A garantia de remuneração mínima é de R$ 2.536,00, valor que já inclui o descanso semanal remunerado (DSR).
+Pergunta: Quais dias as férias individuais ou coletivas não poderão coincidir?
+Resposta: O início das férias individuais ou coletivas, não poderá coincidir com sábados, domingos, feriados, ou dias já compensados, sendo vedada a concessão das férias individuais no período de 2 (dois) dias que antecedem feriados ou dias de repouso semanal remunerado.
 
-Questão 4: Pagamento do Abono Pecuniário
-Pergunta: Caso a empresa opte pelo abono pecuniário em vez do parcelamento das diferenças salariais de setembro a novembro de 2025, qual a porcentagem e sobre qual base ele deve ser aplicado?
-Resposta: O abono deve ser de 20,00% aplicado sobre o salário de agosto de 2025.
+Pergunta: A partir de quando os salários fixos ou parte fixa dos salários serão reajustados?
+Resposta: Os salários fixos ou parte fixa dos salários mistos serão reajustados a partir de 01 de setembro de 2025.
 
-Questão 5: Contribuição Assistencial dos Empregados
-Pergunta: Qual o percentual e o valor teto mensal da contribuição assistencial devida pelos empregados ao Sindicato dos Comerciários de São Paulo?
-Resposta: A contribuição é de 1% (um por cento) ao mês, limitada ao teto de R$ 50,00.
+Pergunta: Quais as exceções aonde não é autorizado o trabalho aos feriados?
+Resposta: Na forma do Decreto nº 99.467, de 20 agosto de 1990, c/c a Lei nº 605/49, o artigo 6º da Lei nº 10.101, de 19 de dezembro 2000, e legislação municipal aplicáveis, fica autorizado o trabalho aos feriados: com exceção de 25 de dezembro (Natal) e 1º de janeiro (Confraternização Universal)
 
-Questão 6: Regime Especial (REPIS) para ME/EPP
-Pergunta: Segundo a cláusula do REPIS, qual o salário de admissão para "demais empregados" em empresas (MEIs, MEs e EPPs) com até 20 empregados que aderirem ao sistema?
-Resposta: O valor fixado é de R$ 1.977,00.
+Pergunta: Por qual prazo fica assegurado a manutenção do contrato de trabalho do empregado ao retornar em razão de afastamento por doença?
+Resposta: Ao comerciário que retorna ao trabalho em razão de afastamento por doença, fica assegurada a manutenção de seu contrato de trabalho pelo período de 30 (trinta) dias, a partir da alta previdenciária.
 
-Questão 7: Benefício do "Dia do Comerciário"
-Pergunta: Como funciona o abono do "Dia do Comerciário" (30 de outubro) para empregados com mais de 180 dias de contrato?
-Resposta: O empregado fará jus a um abono correspondente a 02 (dois) dias de sua remuneração mensal de outubro de 2025.
+Pergunta: Qual o artigo da CLT que autoriza a prática da jornada 12x36?
+Resposta: Nos termos do art. 59-A da CLT, fica autorizada a prática da jornada de 12 (doze) horas
+diárias de trabalho por 36 (trinta e seis) horas de folga ou descanso.
 
-Questão 8: Trabalho em Feriados (Regras Específicas)
-Pergunta: Quais são as condições de remuneração e jornada para o trabalho em feriados, conforme a cláusula 41?
-Resposta: A jornada é limitada a 6 horas, com proibição de horas extras (sob multa), pagamento em dobro das horas trabalhadas e concessão de um vale-compras ou dinheiro no valor de R$ 34,00.
+Pergunta: Qual intervalo mínimo deverá ser assegurado aos empregados?
+Resposta: Deverá ser assegurado aos empregados intervalo mínimo de 30 (trinta) minutos ininterruptos.
 
-Questão 9: Auxílio Funeral
-Pergunta: Qual o valor da indenização que a empresa deve pagar ao beneficiário em caso de falecimento do empregado?
-Resposta: O valor equivalente a 1 (um) salário de admissão, conforme a função do empregado falecido.
+Pergunta: Qual o valor máximo do desconto do vale-transporte?
+Resposta: O valor do desconto do vale-transporte não poderá ultrapassar o valor efetivamente dispendido pelo trabalhador com despesas de transporte no deslocamento de sua residência ao local de trabalho e vice-versa.
 
-Questão 10: Vigência e Contribuição Negocial Empresarial
-Pergunta: Qual a data limite para o recolhimento da Contribuição Assistencial Negocial Empresarial pelas empresas representadas pelo Sindilojas-SP?
-Resposta: O recolhimento deve ser efetuado até o dia 07 de outubro de 2025.
+Pergunta: Qual o valor da multa caso descumprimento de qualquer cláusula a favor do empregado?
+Resposta: Fica estipulada multa no valor de R$ 225,00 (duzentos e vinte e cinco reais) a partir de 1º de setembro de 2025, por empregado e por infração, pelo descumprimento de qualquer cláusula contida no presente instrumento a favor do empregado, não cumulativa com qualquer outra multa disposta nessa Convenção.
