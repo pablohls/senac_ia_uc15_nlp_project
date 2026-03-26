@@ -459,3 +459,37 @@ qualquer agência bancária ou pela internet, em impresso próprio, que será en
 Correios
 
 ETC...
+
+25/03/2026
+
+procurando nas bibliotecas como fazer funcionar
+tentando utilizar o codigo de saiu deu este resultado:
+
+--- Resultados para: O que diz a cláusula 7 sobre contribuição assistencial? ---
+
+1. Página 17 - Score: 2.445
+   prevista no “caput” desta cláusula. 
+ 
+Parágrafo 2º - Ficam desobrigadas do cumprimento desta cláusula as empresas 
+obrigadas à cumprir o disposto na cláusula 60 que trata do Auxí lio Plano de Assistência 
+e Cuidado Pessoal, e aquelas que promoverem a adesão à referida  cláusula de forma 
+espontânea...
+
+2. Página 17 - Score: 2.445
+   prevista no “caput” desta cláusula. 
+ 
+Parágrafo 2º - Ficam desobrigadas do cumprimento desta cláusula as empresas 
+obrigadas à cumprir o disposto na cláusula 60 que trata do Auxí lio Plano de Assistência 
+e Cuidado Pessoal, e aquelas que promoverem a adesão à referida  cláusula de forma 
+espontânea...
+
+3. Página 17 - Score: 2.445
+   prevista no “caput” desta cláusula. 
+ 
+Parágrafo 2º - Ficam desobrigadas do cumprimento desta cláusula as empresas 
+obrigadas à cumprir o disposto na cláusula 60 que trata do Auxí lio Plano de Assistência 
+e Cuidado Pessoal, e aquelas que promoverem a adesão à referida  cláusula de forma 
+espontânea...
+
+4. Página 17 - Score: 2.445
+   prevista no “caput” desta cláusula. 
