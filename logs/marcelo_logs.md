@@ -397,4 +397,65 @@ Cargo 7: Perito Criminal Federal – Área 11: Engenharia Cartográfica 6 6 6
 Cargo 8: Perito Criminal Federal – Área 12: Medicina Legal 6 6 6 
 Cargo 9: Perito Crimi
 
+23/03/2026
 
+preparando o codigo 
+DOCCANO
+preparando o 
+DOCKER
+tudo baixado e configurando  
+agora e so lutar
+docker container start doccano
+127.0.0.1:8000
+Deu certo  :)
+
+
+24/03/2026
+
+apos configurar 
+fazer 4 perguntas
+apos fazer rotulos
+obtive estes resultados
+"label":[[2473,2761,"reajustamento previsto na cláusula  REAJUSTAMENTO"],[2904,3084,"1º da cláusula 1 sobre salários superiores a R$ 11.000,00"],[9867,9956,"salário de admissão para empregados em geral em empresas com mais de 20 empregados"],[10361,10411,"salário de admissão para empregados em geral em empresas com mais de 20 empregados"],[34045,34359,"garantia de emprego ao futuro aposentado prevista na cláusula 21"]],"Comments":[]}
+
+
+24/03/2026
+Em sala de aula
+inclui mais 4 perguntas totalizando 8 perguntas
+refazendo os rotulos
+saiu isto 
+"label":[[2473,2761,"reajustamento previsto na cláusula  REAJUSTAMENTO"],[2904,3084,"1º da cláusula 1 sobre salários superiores a R$ 11.000,00"],[9867,9956,"salário de admissão para empregados em geral em empresas com mais de 20 empregados"],[10361,10411,"salário de admissão para empregados em geral em empresas com mais de 20 empregados"],[10793,11259,"O que estabelece a cláusula 5 – GARANTIA DO COMISSIONISTA quanto ao valor mínimo"],[12103,12568,"o que determina a cláusula 7 sobre a contribuição assistencial dos empregados"],[17328,17669,"O que estabelece a cláusula 5 – GARANTIA DO COMISSIONISTA quanto ao valor mínimo"],[25542,25827,"Como é calculada a remuneração do repouso semanal dos comissionistas"],[34045,34359,"garantia de emprego ao futuro aposentado prevista na cláusula 21"]],"Comments":[]}
+
+
+depois de fazer com novas metrica: 
+
+Primeiro estágio: busca os 20 pedaços mais similares
+Segundo estágio: reordena os 20 com modelo mais preciso, mantém os 5 melhores
+Mostra os resultados com página e score
+
+resultados:
+Rank: 1
+Source: /content/drive/MyDrive/UC15/PDF/sindilojas_2025_2026.pdf_page_3_chunk_3
+Reranker score: 4.979145
+----------------------------------------------------------------------------------------------------
+instrumento,   as diferenças salariais em razão do reajuste salarial previst o no caput desta 
+cláusula deverão ser pagas na folha de pagamento de janeiro/2026. 
+ 
+2 - EMPREGADOS ADMITIDOS APÓS 1º DE SETEMBRO/24 - Aos empregados admitidos a 
+partir de 16 de setembro de 20 24 e até 15 de agosto de 20 25, o reajustamento será 
+proporcional, conforme tabelas a seguir: 
+
+Rank: 2
+Source: /content/drive/MyDrive/UC15/PDF/sindilojas_2025_2026.pdf_page_7_chunk_4
+Reranker score: 3.101576
+----------------------------------------------------------------------------------------------------
+Capital acima de R$ 150.000,00 R$ 2.710,00 
+CONTRIBUIÇÃO MÍNIMA 
+Filial sem capital social destacado (vide parágrafo 6º)  R$ 295,00 
+Empresas sem empregados (vide parágrafo 7º) R$ 295,00 
+ 
+Parágrafo 1º  - O recolhimento deverá ser feito até o dia 07 de outubro de 2025 , em 
+qualquer agência bancária ou pela internet, em impresso próprio, que será envi ado pelos 
+Correios
+
+ETC...

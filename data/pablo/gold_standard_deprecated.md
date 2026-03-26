@@ -37,3 +37,5 @@ Resposta: O valor equivalente a 1 (um) salário de admissão, conforme a funçã
 Questão 10: Vigência e Contribuição Negocial Empresarial
 Pergunta: Qual a data limite para o recolhimento da Contribuição Assistencial Negocial Empresarial pelas empresas representadas pelo Sindilojas-SP?
 Resposta: O recolhimento deve ser efetuado até o dia 07 de outubro de 2025.
+
+
