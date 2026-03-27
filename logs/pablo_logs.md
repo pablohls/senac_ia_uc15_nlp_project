@@ -48,4 +48,8 @@
 
 25/03/2026
 
-    Continuei a implementação de um LLM as a Judge, sem sucesso devido a limitações. Refiz o meu gold standard para testar a acuracia, mas aparentemente não tive muita melhoria. 
+    Continuei a implementação de um LLM as a Judge, sem sucesso devido a limitações. Refiz o meu gold standard para testar a acuracia, mas aparentemente não tive muita melhoria.
+
+26/03/2026
+
+    Fiz um novo notebook, usando LLM, para testar algumas abordagens. Consegui implementar por completo, mas ainda falta avaliar melhor os resultados.
