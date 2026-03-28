@@ -493,3 +493,20 @@ espontânea...
 
 4. Página 17 - Score: 2.445
    prevista no “caput” desta cláusula. 
+
+   26/03/2026
+
+   tentando fazer o codigo 
+   lendo bibliotecas
+   resultado de muitos erros
+
+
+   27/03/2026
+
+   baixe o codigo do professor 
+   estou fazendo mudanças e adquações
+   muito sofrimento
+   muitas falhas
+   mas lutando
+
+   
