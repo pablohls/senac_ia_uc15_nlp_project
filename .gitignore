@@ -1,6 +1,14 @@
 notebooks/pablo/chroma_langchain_db/chroma.sqlite3
+notebooks/pablo/chroma_professional_db/chroma.sqlite3
 notebooks/pablo/chroma_langchain_db/80e4b679-7920-44cf-9516-5086a979992c/link_lists.bin
 notebooks/pablo/chroma_langchain_db/80e4b679-7920-44cf-9516-5086a979992c/length.bin
 notebooks/pablo/chroma_langchain_db/80e4b679-7920-44cf-9516-5086a979992c/header.bin
 notebooks/pablo/chroma_langchain_db/80e4b679-7920-44cf-9516-5086a979992c/data_level0.bin
 notebooks/pablo/chroma_langchain_db_v2
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+notebooks/pablo/chroma_professional_db/c15425cc-7a90-4b25-a1ac-b439843ae309/length.bin
+notebooks/pablo/chroma_professional_db/c15425cc-7a90-4b25-a1ac-b439843ae309/data_level0.bin
