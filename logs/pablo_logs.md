@@ -53,3 +53,7 @@
 26/03/2026
 
     Fiz um novo notebook, usando LLM, para testar algumas abordagens. Consegui implementar por completo, mas ainda falta avaliar melhor os resultados.
+
+27/03/2026
+
+    Aparentemente o novo notebook, usando LLM, apresentou bons resultados finais, mas ainda estou explorando o funcionamento do mesmo para entender melhor sobre o codigo.
