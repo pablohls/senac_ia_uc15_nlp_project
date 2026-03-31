@@ -509,4 +509,10 @@ espontânea...
    muitas falhas
    mas lutando
 
-   
+
+30/03/2026
+
+instalando e configurando o docker
+instalando o sentence_transformers
+consguindo configurar o container no docker
+fazendo teste e avançando   
