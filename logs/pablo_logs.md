@@ -57,3 +57,7 @@
 27/03/2026
 
     Aparentemente o novo notebook, usando LLM, apresentou bons resultados finais, mas ainda estou explorando o funcionamento do mesmo para entender melhor sobre o codigo.
+
+30/03/2026
+
+    Criação do "fine_tunning_test.ipynb" com base no tutorial de finetuning passado em aula.

@@ -1,0 +1,25 @@
+[project]
+name = "senac-ia-uc15-nlp-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pablo Henrique",email = "35077005+pablohls@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets (>=4.8.4,<5.0.0)",
+    "sentence-transformers (>=5.3.0,<6.0.0)",
+    "logging (>=0.4.9.6,<0.5.0.0)",
+    "transformers[torch] (>=5.4.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
