@@ -10,4 +10,7 @@
 
 11/03
     - Revisão de conteúdos e primeiros passos com LangChain
-    
+
+12/03
+    - Primeiros testes com implementação de modelo de recuperação de informação, que busca respostas a perguntas de usuário diretamente no PDF
+    - Respostas dos modelos não estão satisfatórias, não conseguimos melhores respostas nem testando modelos diferentes, nem ajustando parâmetros básicos
