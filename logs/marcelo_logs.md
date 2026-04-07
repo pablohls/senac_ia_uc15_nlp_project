@@ -522,3 +522,9 @@ docker pronto
 sentence_transformers instado
 conteiner configurado na maquina local
 VM formataram e zerou tudo
+
+01/04/2026
+excutando e codigo de treino
+estourou a memoria
+estourou o espaço
+um caos
