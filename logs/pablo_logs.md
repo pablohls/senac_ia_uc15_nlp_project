@@ -65,3 +65,7 @@
 02/04/2026
 
     Ajuste no ambiente local da VM para executar os notebooks das aulas do dia 30/03 e do dia 01/04, pendente apenas o download dos arquivos e qualquer eventual falha que possa ocorrer nos codigos, mas aparentemente está quase tudo certo.
+
+06/04/2026
+
+    Criação da imagem e configuração para rodar um modelo de LLM localmente usando Ollama.
