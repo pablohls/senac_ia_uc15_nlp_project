@@ -15,3 +15,14 @@ data/pablo/mmarco_pt_train
 !.env.example
 notebooks/pablo/chroma_professional_db/c15425cc-7a90-4b25-a1ac-b439843ae309/length.bin
 notebooks/pablo/chroma_professional_db/c15425cc-7a90-4b25-a1ac-b439843ae309/data_level0.bin
+notebooks/arthur/chroma_langchain_db/chroma.sqlite3
+notebooks/arthur/chroma_langchain_db_notebook3/022a521c-bd22-4c6c-a3d2-e4f432dd0a37/link_lists.bin
+notebooks/arthur/chroma_langchain_db_notebook3/022a521c-bd22-4c6c-a3d2-e4f432dd0a37/length.bin
+notebooks/arthur/chroma_langchain_db_notebook3/022a521c-bd22-4c6c-a3d2-e4f432dd0a37/header.bin
+notebooks/arthur/chroma_langchain_db_notebook3/022a521c-bd22-4c6c-a3d2-e4f432dd0a37/data_level0.bin
+notebooks/arthur/chroma_langchain_db_notebook3/chroma.sqlite3
+notebooks/arthur/chroma_langchain_db/db5180a2-482f-4b53-a983-574a2ee2d39b/link_lists.bin
+notebooks/arthur/chroma_langchain_db/db5180a2-482f-4b53-a983-574a2ee2d39b/length.bin
+notebooks/arthur/chroma_langchain_db/db5180a2-482f-4b53-a983-574a2ee2d39b/index_metadata.pickle
+notebooks/arthur/chroma_langchain_db/db5180a2-482f-4b53-a983-574a2ee2d39b/header.bin
+notebooks/arthur/chroma_langchain_db/db5180a2-482f-4b53-a983-574a2ee2d39b/data_level0.bin
