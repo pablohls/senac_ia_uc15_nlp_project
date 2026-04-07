@@ -528,3 +528,13 @@ excutando e codigo de treino
 estourou a memoria
 estourou o espaço
 um caos
+
+06/04/2026
+lendo biblioteca do VLLM
+fazendo as configurações 
+tentando rodar
+tentando entender
+montando no container do VM
+montando docker na VM 
+pois zeraram minha VM
+tenho que instalar tudo de novo :(
