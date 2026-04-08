@@ -69,3 +69,7 @@
 06/04/2026
 
     Criação da imagem e configuração para rodar um modelo de LLM localmente usando Ollama.
+
+07/04/2026
+
+    Conclusão da configuração do Ollama local, criação da implementação da chamada nos notebooks para que a LLM possa avaliar as respostas.
