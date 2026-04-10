@@ -516,3 +516,25 @@ instalando e configurando o docker
 instalando o sentence_transformers
 consguindo configurar o container no docker
 fazendo teste e avançando   
+
+31/03/2026
+docker pronto
+sentence_transformers instado
+conteiner configurado na maquina local
+VM formataram e zerou tudo
+
+01/04/2026
+excutando e codigo de treino
+estourou a memoria
+estourou o espaço
+um caos
+
+06/04/2026
+lendo biblioteca do VLLM
+fazendo as configurações 
+tentando rodar
+tentando entender
+montando no container do VM
+montando docker na VM 
+pois zeraram minha VM
+tenho que instalar tudo de novo :(
