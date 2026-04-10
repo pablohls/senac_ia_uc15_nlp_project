@@ -69,3 +69,15 @@
 06/04/2026
 
     Criação da imagem e configuração para rodar um modelo de LLM localmente usando Ollama.
+
+07/04/2026
+
+    Conclusão da configuração do Ollama local, criação da implementação da chamada nos notebooks para que a LLM possa avaliar as respostas.
+
+08/04/2026
+
+    Crição de um novo notebook simples, para testar a integração com a LLM rodando localmente As a judge.
+
+09/04/2026
+
+    Inicio da criação de uma interface para "prompting" com o RAG.
