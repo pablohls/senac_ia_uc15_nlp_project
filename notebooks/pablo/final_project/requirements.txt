@@ -1,0 +1,8 @@
+chromadb
+jupyter
+langchain-core
+pypdf
+pytest
+requests
+sentence-transformers
+streamlit
