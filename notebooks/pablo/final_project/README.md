@@ -198,7 +198,7 @@ Uma reproducao minima da v1 segue estes passos:
 2. garantir o PDF em `data/pdf/`
 3. iniciar o Ollama e baixar `qwen2.5:7b`
 4. rebuild do indice em `data/chroma/`
-5. consultar o RAG ou subir o Streamlit
+5. consultar o RAG ou subir o Streamlit (streamlit run app.py --server.address 0.0.0.0 --server.port 8501)
 
 ## Status final
 
