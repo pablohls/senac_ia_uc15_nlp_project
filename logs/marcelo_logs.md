@@ -647,3 +647,13 @@ Os objetivos adicionais da Convenção Coletiva normalmente incluem a defesa dos
 ============================================================
 
 
+13/04/2026
+
+Tentando melhorar mais as respostas
+![alt text](image.png)
+
+as resposta estao melhorando 
+os teste estao apresentando melhoras 
+montei o grafica para melhorar visualmente
+ficou top
+
