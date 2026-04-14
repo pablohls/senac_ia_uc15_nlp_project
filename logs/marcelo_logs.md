@@ -538,3 +538,112 @@ montando no container do VM
 montando docker na VM 
 pois zeraram minha VM
 tenho que instalar tudo de novo :(
+
+07/04/2026
+montando o codigo para teste
+pesquisando como melhor fazer este codigo
+depois de fazer o codigo saiu estes testes
+com a convenção coletiva 2025-2026
+
+===========================================================
+ASSISTENTE DA CONVENCAO COLETIVA 2025-2026
+Sindicato dos Comerciarios e Sindilojas-SP
+============================================================
+
+Pergunta: qual salario mimino 
+Consultando convenção...
+
+============================================================
+Resposta (1.8s):
+Com base nas cláusulas da Convenção Coletiva de Trabalho (CCT) dos Comerciários em São Paulo para os anos 2025/2026, não há informações específicas sobre salário mínimo algum no texto fornecido. Para responder à pergunta "Qual é o salário mínimo?" com precisão e coerência dentro do contexto da convenção:
+
+"Não encontrado na convenção."
+============================================================
+
+Pergunta: qual o intervalo de descanço?
+Consultando convenção...
+
+============================================================
+Resposta (2.3s):
+O intervalo de descanso é estabelecido para funcionários que tenham trabalhado mais de seis horas por dia desde a entrada em vigor da Convenção Coletiva até o final do mês, e este período será concedido durante as férias anuais. O acordo não especifica diretamente um intervalo entre as horas de trabalho que constitui descanso legal; no entanto, a CLT (Consolidação das Leis em Matéria de Trabalho) estabelece como padrão para o Brasil 12h30min - sessões não excedendo um dia e meio semanal. Como essa normativa é obrigacional no país, pode-se considerar que as empresas devem seguir práticas similares ou mais generosas para garantir descanso suficiente aos seus funcionários conforme a cláusula (III) da CLT:
+"Artigo 146 - O trabalhador tem direito ao dia e meia de férias anuais, fixadas pelo estado por lei. Aos fins desta parte, os empregadores são obrigados a dar-lhes o descanso legalmente devido." (cláusula III da CLT). 
+No entanto, para uma resposta precisa e diretamente relacionada à Convenção Coletiva dos Comerciários de São Paulo 2025/2026 mencionada no documento original, não foi encontrado um intervalo específico de descanso citado. Portanto, a referência para o intervalo padrão do descanso mínimo conforme lei brasileira é apresentada como suporte contextual ao entendimento das regras laborais gerais no Brasil. 
+Não encontrado na convenção
+============================================================
+
+Pergunta: qual o intervalo minimo de descanso que deverar ser assegurado ao empregado?
+Consultando convenção...
+
+============================================================
+Resposta (1.1s):
+A pergunta não é diretamente respondida pela Convenção Coletiva dos Comerciários de São Paulo 2025/2026. Não há nenhum intervalo mínimo específico mencionado para o descanso no texto fornecido da convenção coletiva, portanto a resposta é: "Não encontrada na convenção."
+============================================================
+
+09/04/2023
+
+o codigo pronto.
+lista dos teste que estou fazendo para aprimorar
+
+============================================================
+ASSISTENTE DE IA - GPU NVIDIA L40S
+============================================================
+Modelo: Phi-3-mini via Ollama
+Idioma: Portugues
+============================================================
+
+[1] Pergunta: qual pais mais populoso
+Processando na GPU...
+------------------------------------------------------------
+Resposta (0.4s):
+O país com a maior população no mundo é o China, seguido pelo segundo Brasil. No entrante da lista seria apenas países como Estados Unidos e Índia que estão próximos aos números anteriores na tabela de países por população. No geral, essas são as cinco posições nas classificações globais atuais até o momento em 2023.
+------------------------------------------------------------
+
+[2] Pergunta: onde esta localizado o mar morto
+Processando na GPU...
+------------------------------------------------------------
+Resposta (1.1s):
+O Mar Morto está situado no Mediterrâneo Oriental, entre as ilhas de Sicília e Malta. É famoso por sua salinidade extrema e pela aparência verde-escura dos seus fundos devido à presença do mineral sódio natrocarbonato.
+
+Em termos específicos: 
+O Mar Morto está localizado na região mediterrânea entre as ilhas da Sicília, Itália e Malta. A latitude é aproximadamente 36 graus Norte e a longitude 14 de grau Leste. É um mar natural cujas águas são extremamente salinas, o que dificulta muito a vida das espécies aquáticas ali encontradas. Este fato lhe confere o título de "mar morto". As ilhas próximas incluem Malta e as ilhas Maltese mais orientais da Sicília italiana. O Mar Morto é um dos mares com salinidade extremamente elevada do mundo, tornando-se uma unicidade geográfica mundial.
+
+Espera que esta resposta seja satisfatória para você!
+------------------------------------------------------------
+
+[3] Pergunta: qual o endereço da casa branca usa
+Processando na GPU...
+------------------------------------------------------------
+Resposta (0.4s):
+A Casa Branca está localizada no 1600 Pennsylvania Avenue NW, Washington D.C., Estados Unidos. Se você quiser visitar pela Internet ou por algum outro meio de comunicação digital e não puder verificar visualmente o endereço físico, essa informação deve servir para identificá-la corretamente.
+------------------------------------------------------------
+===========================================================
+CONVENCAO COLETIVA 2025-2026
+Respostas detalhadas baseadas no documento
+============================================================
+
+Pergunta: qual endereço do sindilojas
+Consultando convenção...
+
+============================================================
+Resposta (1.0s):
+A sede da Sindicato dos Comerciários de São Paulo está localizada na Rua Formosa, número 99 no Centro histórico de São Paulo. O Código de Regra do sindicato é o CEP 01048-100 - São Paulo – SP. Essa informação se encontra nos artigos da Convenção Coletiva dos Comerciários que detalham a sede e localização do sindicato em São Paulo, com base no registro específico nº 4.009/41. O endereço é declarado como um fator importante para o reconhecimento oficial da entidade nos documentos oficiais relacionados ao trabalho dos comerciários na região.
+============================================================
+
+Pergunta: qual o maior salario 
+Consultando convenção...
+
+============================================================
+Resposta (6.7s):
+De acordo com a Convenção Coletiva de Trabalho dos Comerciários de São Paulo para o período de 2025/2026, não há uma cláusula específica que declare um salário "maior" dentro do documento fornecido. Portanto, sem informações adicionais ou contextos relacionados a níveis salariais individuais e títulos no mercado de trabalho localizado em São Paulo, não é possível determinar qual seria o maior salário baseada apenas nas partes apresentadas da Convenção Coletiva. A questão do maior salário normalmente envolveria discussões sobre hierarquias profissionais e remunerações diferenciadas com base no cargo ocupado, experiência ou nível de complexidade das funções exercidas pelas pessoas dentro dos sindicatos mencionados na Convenção Coletiva. No entanto, esses detalhes não estão incluídos nos trechos disponíveis da convenção e a questão do "maior salário" não pode ser respondida com as informações fornecidas no documento acima. Portanto, precisaríamos de mais contexto ou uma referência adicional para responder essa pergunta especificamente sobre os termos estabelecidos nessa Convenção Coletiva em 2025/2026.
+
+Pergunta: Quando ocorrerá a última reunião sindical antes da convenção?
+Resposta detalhada baseada na convenção (NÃO ENCONTROU NATURALMENTE NA CONVENÇÃO COLETIVA DE TRABALHO FORNECIDA): 
+- Não encontrou a informação sobre o horário da última reunião sindical antes do início da Convenção Coletiva de Trabalho no texto fornecido. Normalmente, as datas e horários das reuniões são estabelecidos em documentos separados ou anexos à Convenção Coletiva ou podem ser decididas pelo próprio sindicato antes do início da convenção semelhante ao que ocorre no texto acima. Para obter a informação específica sobre quando acontecerá a última reunião, seria necessário consultar esses documentos adicionais ou entrar em contato diretamente com os representantes do sindicato para descobrir as datas e horários da próxima reunião.
+
+Pergunta: Qual o principal objetivo dessa convenção? 
+Resposta detalhada baseada na convenção (NÃO FOI CITADA NO TEXTO PARA PROOCUPANTE): O texto fornecido não aborda explicitamente os principais objetivos da Convenção Coletiva de Trabalho dos Comerciários, como é o caso com as convenções do mercado salarial. No entanto, embora a maioria das convenções trabalhistas tenha por objetivo garantir um salário justo e razoável para os seus membros ao estabelecer termos gerais de conduta dos empregadores - incluindo o reajuste do salário fixo ou parte do salário misto, conforme mencionado na cláusula 1 da Convenção Coletiva citada:
+- Cláusula 1 (NÃO FOI CITADA NO TEXTO PARA PROOCUPANTE): "Os salários fixos ou parte fixa dos salários mistos serão reajustados a partir de 01 de setembro do exercício atual, mediante aplicação do índice referente aos anteriores anos consecutivos com prazo para assegurar igualdade e justiça salarial."
+Os objetivos adicionais da Convenção Coletiva normalmente incluem a defesa dos direitos trabalhistas, como convenções sobre jornadas de trabalho mínimas (não mencionada no texto), horas extras pagáveis e direito ao descanso remunerado. Esses objetivos geralmente são estruturados na Convenção Coletiva para proteger os interesses dos sindicalizados, mas não foram citadas explicitamente nos trechos fornecs que contêm informações sobre a reajuste salarial e as empresas abrangidas. Portanto, embora possamos inferir certos objetivos através da prática comum das Convenções Coletivas de Trabalho em geral (o estabelecimento do índice para o reajuste dos salários), essa informação específica sobre os principais objetivos dessa convenção não foi encontrada nos textos fornecidos. Para mais detalhes, seria necessário consultar a Convenção Coletiva completa ou entrar em contato diretamente com o sindicato para obter uma compreensão abrangente dos seus principais objetivos e termos acordados durante a convenção 2025/2026.
+============================================================
+
+
