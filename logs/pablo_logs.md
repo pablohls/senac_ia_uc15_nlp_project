@@ -81,3 +81,7 @@
 09/04/2026
 
     Inicio da criação de uma interface para "prompting" com o RAG.
+
+13/04/2026
+
+    Ajustes em busca de melhorar os resultados, como alterar a forma de gerar os chunks e outros ajustes. Auxiliar os demais membros com dificuldades tecnicas.
