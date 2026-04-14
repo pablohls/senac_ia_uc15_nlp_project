@@ -41,3 +41,13 @@
 
 30/03
     - Aquisição de novo conteúdo e exercício de implementação (montar script para fine tunning do serafim 100m)
+
+31/03
+    - Continuação do trabalho de implementação com Serafim
+
+06/04
+    - Conteúdo novo e primeiros testes com RAG
+
+07, 08 e 09/04
+    - Primeiras tentativas de implementação com RAG. Após alguns testes mal-sucedidos no Google Colab, consegui rodar um protótipo localmente, no Cursor. Todavia, os resultados não foram satisfatórios
+
