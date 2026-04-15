@@ -28,6 +28,7 @@ class Settings:
     default_embedding_model: str
     default_ollama_base_url: str
     default_ollama_model: str
+    tokenizer_name: str
     chunk_size: int
     chunk_overlap: int
     default_retrieval_k: int
@@ -53,9 +54,13 @@ def build_settings() -> Settings:
         ),
         default_ollama_base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
         default_ollama_model=os.getenv("OLLAMA_MODEL", "qwen2.5:7b"),
-        chunk_size=_read_int_env("CHUNK_SIZE", 1200),
-        chunk_overlap=_read_int_env("CHUNK_OVERLAP", 200),
-        default_retrieval_k=_read_int_env("RETRIEVAL_K", 4),
+        tokenizer_name=os.getenv(
+            "TOKENIZER_NAME",
+            "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        ),
+        chunk_size=_read_int_env("CHUNK_SIZE", 512),
+        chunk_overlap=_read_int_env("CHUNK_OVERLAP", 20),
+        default_retrieval_k=_read_int_env("RETRIEVAL_K", 5),
     )
 
 

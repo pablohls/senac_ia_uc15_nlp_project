@@ -85,3 +85,7 @@
 13/04/2026
 
     Ajustes em busca de melhorar os resultados, como alterar a forma de gerar os chunks e outros ajustes. Auxiliar os demais membros com dificuldades tecnicas.
+
+14/04/2026
+
+    Finalizei a mudança do chunk de chracteres para tokens, tive uma leve melhora mas nada muito surpreendente. Tenho de analisar mais a fundo as coisas que podem ser feitas para buscar melhorar mais os resultados.
