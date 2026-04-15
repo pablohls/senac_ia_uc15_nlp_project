@@ -657,3 +657,8 @@ os teste estao apresentando melhoras
 montei o grafica para melhorar visualmente
 ficou top
 
+14/04/2026
+melhorando o resulado das respostas
+dando muito trabalho 
+no primeiro momento nao melhorou nada
+estou pesquisando novas soluções 
