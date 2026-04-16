@@ -21,6 +21,7 @@ def test_chunk_pages_creates_documents_with_required_metadata():
         chunk_size=settings.chunk_size,
         chunk_overlap=settings.chunk_overlap,
         source=settings.pdf_path.name,
+        tokenizer_name=settings.tokenizer_name,
     )
 
     assert len(chunks) > 0
@@ -38,6 +39,7 @@ def test_chunk_pages_rejects_invalid_overlap():
             chunk_size=10,
             chunk_overlap=10,
             source="sample.pdf",
+            tokenizer_name=settings.tokenizer_name,
         )
     except ValueError as exc:
         assert "chunk_overlap" in str(exc)

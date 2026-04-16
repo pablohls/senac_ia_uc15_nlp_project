@@ -76,6 +76,7 @@ def test_rebuild_and_open_chroma_persist_and_query(tmp_path: Path):
         chunk_size=settings.chunk_size,
         chunk_overlap=settings.chunk_overlap,
         source=settings.pdf_path.name,
+        tokenizer_name=settings.tokenizer_name,
     )
     persist_dir = tmp_path / "chroma"
 
