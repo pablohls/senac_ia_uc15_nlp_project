@@ -662,3 +662,35 @@ melhorando o resulado das respostas
 dando muito trabalho 
 no primeiro momento nao melhorou nada
 estou pesquisando novas soluções 
+
+15/04/2026
+Meu VM deu problema
+
+instalei no windows.
+
+CARREGUEI O SCRIPT DO PROGRAMA 
+
+CARREGOU O ARQVUIVO EM PDF
+Convencao Coletiva dos Comerciarios de Sao Paulo
+Periodo 2025/2026
+
+CARREGOU TODAS AS 38 PAGINAS
+Documento carregado - 38 paginas
+
+ORGANIZOU O PDF 
+Total de 342 paragrafos organizados
+
+FIZ A PERGUNTA:
+Digite sua pergunta:
+
+Por qual prazo fica assegurado a manutenção do contrato de trabalho do empregado ao retornar em razão de afastamento por doença?
+
+RESPOSTA DANDO DE ACORDO MOSTRANDO A PAGINA E PARAGRAFO DA RESPOSTA
+
+Resposta encontrada
+Localizacao: Pagina 21, Paragrafo 8
+
+Resposta:
+
+42 - GARANTIA DE EMPREGO APÓS RETORNO DO AUXÍLIO DOENÇA - Ao comerciário que retorna ao trabalho em razão de afastamento por doença, fica assegurada a manu tenção de seu contrato de trabalho pelo período de 30 (trinta) dias, a partir da alta previd enciária.
+
