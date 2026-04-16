@@ -17,6 +17,16 @@ class StubRetriever:
         return self.chunks
 
 
+class StubReranker:
+    def __init__(self, reranked_chunks: list[RetrievedChunk]):
+        self.reranked_chunks = reranked_chunks
+        self.calls: list[tuple[str, list[str]]] = []
+
+    def rerank(self, query: str, chunks: list[RetrievedChunk]) -> list[RetrievedChunk]:
+        self.calls.append((query, [chunk.chunk_id for chunk in chunks]))
+        return self.reranked_chunks
+
+
 def _chunk(
     *,
     text: str,
@@ -24,14 +34,18 @@ def _chunk(
     page: int = 1,
     source: str = "sindilojas_2025_2026.pdf",
     chunk_id: str = "1-1",
+    metadata_extra: dict | None = None,
 ) -> RetrievedChunk:
+    metadata = {"page": page, "source": source, "chunk_id": chunk_id}
+    if metadata_extra is not None:
+        metadata.update(metadata_extra)
     return RetrievedChunk(
         text=text,
         score=score,
         page=page,
         source=source,
         chunk_id=chunk_id,
-        metadata={"page": page, "source": source, "chunk_id": chunk_id},
+        metadata=metadata,
     )
 
 
@@ -170,3 +184,91 @@ def test_rag_service_limits_sources_to_five():
     result = service.answer("Qual e a vigencia da convencao coletiva?")
 
     assert len(result["sources"]) == 5
+
+
+def test_rag_service_uses_reranked_order_when_enabled():
+    retriever = StubRetriever(
+        [
+            _chunk(
+                text="O aviso previo segue regras gerais previstas na convencao coletiva.",
+                score=0.89,
+                page=13,
+                chunk_id="13-1",
+            ),
+            _chunk(
+                text="Detalhes do aviso previo estao nesta clausula especifica da convencao coletiva.",
+                score=0.84,
+                page=14,
+                chunk_id="14-1",
+            ),
+        ]
+    )
+    reranker = StubReranker(
+        [
+            _chunk(
+                text="Detalhes do aviso previo estao nesta clausula especifica da convencao coletiva.",
+                score=0.84,
+                page=14,
+                chunk_id="14-1",
+                metadata_extra={"rerank_score": 0.99},
+            ),
+            _chunk(
+                text="O aviso previo segue regras gerais previstas na convencao coletiva.",
+                score=0.89,
+                page=13,
+                chunk_id="13-1",
+                metadata_extra={"rerank_score": 0.72},
+            ),
+        ]
+    )
+
+    def fake_generate(*args, **kwargs):
+        return {"response": "Resposta: O aviso previo esta na clausula especifica."}
+
+    service = RAGService(
+        retriever=retriever,
+        reranker=reranker,
+        rerank_enabled=True,
+        generate_fn=fake_generate,
+        max_sources=5,
+    )
+    result = service.answer("Como funciona o aviso previo?")
+
+    assert reranker.calls == [("Como funciona o aviso previo?", ["13-1", "14-1"])]
+    assert result["sources"][0]["chunk_id"] == "14-1"
+    assert result["sources"][0]["rerank_score"] == 0.99
+
+
+def test_rag_service_does_not_rerank_when_disabled():
+    retriever = StubRetriever(
+        [
+            _chunk(
+                text="O aviso previo segue regras gerais previstas na convencao coletiva.",
+                score=0.89,
+                page=13,
+                chunk_id="13-1",
+            ),
+            _chunk(
+                text="Detalhes do aviso previo estao nesta clausula especifica da convencao coletiva.",
+                score=0.84,
+                page=14,
+                chunk_id="14-1",
+            ),
+        ]
+    )
+    reranker = StubReranker([])
+
+    def fake_generate(*args, **kwargs):
+        return {"response": "Resposta: O aviso previo segue as regras da convencao coletiva."}
+
+    service = RAGService(
+        retriever=retriever,
+        reranker=reranker,
+        rerank_enabled=False,
+        generate_fn=fake_generate,
+        max_sources=5,
+    )
+    result = service.answer("Como funciona o aviso previo?")
+
+    assert reranker.calls == []
+    assert result["sources"][0]["chunk_id"] == "13-1"

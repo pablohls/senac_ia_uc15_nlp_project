@@ -15,6 +15,20 @@ def _read_int_env(name: str, default: int) -> int:
         raise ValueError(f"Environment variable {name!r} must be an integer.") from exc
 
 
+def _read_bool_env(name: str, default: bool) -> bool:
+    raw_value = os.getenv(name)
+    if raw_value is None:
+        return default
+
+    normalized = raw_value.strip().lower()
+    if normalized in {"1", "true", "yes", "on"}:
+        return True
+    if normalized in {"0", "false", "no", "off"}:
+        return False
+
+    raise ValueError(f"Environment variable {name!r} must be a boolean.")
+
+
 def _project_root() -> Path:
     return Path(__file__).resolve().parents[1]
 
@@ -32,6 +46,9 @@ class Settings:
     chunk_size: int
     chunk_overlap: int
     default_retrieval_k: int
+    rerank_enabled: bool
+    default_reranker_model: str
+    default_rerank_top_n: int
 
 
 def build_settings() -> Settings:
@@ -53,14 +70,21 @@ def build_settings() -> Settings:
             "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         ),
         default_ollama_base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
-        default_ollama_model=os.getenv("OLLAMA_MODEL", "qwen2.5:7b"),
+        # default_ollama_model=os.getenv("OLLAMA_MODEL", "qwen2.5:7b"),
+        default_ollama_model=os.getenv("OLLAMA_MODEL", "gemma4:e4b"),
         tokenizer_name=os.getenv(
             "TOKENIZER_NAME",
             "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         ),
-        chunk_size=_read_int_env("CHUNK_SIZE", 512),
-        chunk_overlap=_read_int_env("CHUNK_OVERLAP", 20),
-        default_retrieval_k=_read_int_env("RETRIEVAL_K", 5),
+        chunk_size=_read_int_env("CHUNK_SIZE", 160),
+        chunk_overlap=_read_int_env("CHUNK_OVERLAP", 40),
+        default_retrieval_k=_read_int_env("RETRIEVAL_K", 15),
+        rerank_enabled=_read_bool_env("RERANK_ENABLED", True),
+        default_reranker_model=os.getenv(
+            "RERANKER_MODEL",
+            "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+        ),
+        default_rerank_top_n=_read_int_env("RERANK_TOP_N", 5),
     )
 
 
