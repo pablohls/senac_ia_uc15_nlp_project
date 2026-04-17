@@ -694,3 +694,54 @@ Resposta:
 
 42 - GARANTIA DE EMPREGO APÓS RETORNO DO AUXÍLIO DOENÇA - Ao comerciário que retorna ao trabalho em razão de afastamento por doença, fica assegurada a manu tenção de seu contrato de trabalho pelo período de 30 (trinta) dias, a partir da alta previd enciária.
 
+CRIANDO A API E TENTANDO FAZER FUNCIONAR
+Utilizei o fastAPI
+APOS MUITO TRABALHO 
+ESTA FUNCIONANDO :)
+
+Terminal 1  Rodando na porta 8000
+Terminal 2  Rodando na porta 8501
+
+Convenção Coletiva dos Comerciários de São Paulo
+Período 2025/2026
+
+Usando API para consultas
+
+
+OK - API conectada com sucesso!
+
+Digite sua pergunta:
+
+Pergunta: vale transporte?
+
+Encontrado(s) 3 resultado(s)
+
+Resultado 1 - Página 24, Parágrafo 11
+
+Resposta:
+
+54 – VALE TRANSPORTE - Fica facultado às empresas o pagamento em dinheiro do vale transporte, em recibo próprio, sem que esse valor sofra qualquer incid ência de INSS, Clicksign 5ccd231f-5127-4696-84df-b576074c6eba
+
+Resultado 2 - Página 25, Parágrafo 4
+
+Resposta:
+
+Parágrafo 2º - As empresas fornecerão o vale transporte sempre no mês anterior ao m ês a ser utilizado pelo empregado.
+
+Resultado 3 - Página 25, Parágrafo 5
+
+Resposta:
+
+Parágrafo 3º - Nos termos do Decreto n.º 95.247/87, e baseado na Declaração emi tida pelo empregado acerca do uso do vale transporte, é direito da empresa fi scalizar sua correta utilização quanto ao deslocamento exclusivo residência-trabalho e vice-versa, sendo que a declaração falsa ou o uso indevido do vale transporte constituem f alta grave, passível das sanções legais, tais como advertência, suspensão ou demissão por justa causa.
+
+
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│                 │     │                 │     │                 │
+│  Interface      │────▶│  API (FastAPI)  │────▶│  PDF            │
+│  Streamlit      │◀────│  Porta 8000     │◀────│  Convenção      │
+│  Porta 8501     │     │                 │     │                 │
+│                 │     │                 │     │                 │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+       Usuário                 Backend                 Dados
+
+
