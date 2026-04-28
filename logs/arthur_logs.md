@@ -70,4 +70,7 @@
     - Estudo da documentação e de artigos do PyBibX
 
 27/04
-    - 
+    - Discussão em grupo dos resultados alcançados e preparação da apresentação
+
+28/04
+    - Discussão em grupo dos resultados alcançados e preparação da apresentação
