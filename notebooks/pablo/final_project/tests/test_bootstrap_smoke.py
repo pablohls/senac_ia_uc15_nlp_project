@@ -26,6 +26,9 @@ def test_build_settings_uses_expected_defaults(monkeypatch):
         "CHUNK_SIZE",
         "CHUNK_OVERLAP",
         "RETRIEVAL_K",
+        "RERANK_ENABLED",
+        "RERANKER_MODEL",
+        "RERANK_TOP_N",
     ):
         monkeypatch.delenv(env_var, raising=False)
 
@@ -36,8 +39,12 @@ def test_build_settings_uses_expected_defaults(monkeypatch):
     assert settings.chroma_path == settings.project_root / "data" / "chroma"
     assert settings.chroma_collection_name == "sindilojas_pdf"
     assert settings.default_ollama_model == "qwen2.5:7b"
-    assert settings.chunk_size == 1200
-    assert settings.chunk_overlap == 200
+    assert settings.chunk_size == 160
+    assert settings.chunk_overlap == 40
+    assert settings.default_retrieval_k == 10
+    assert settings.rerank_enabled is False
+    assert settings.default_rerank_top_n == 5
+    assert settings.default_reranker_model == "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
 
 
 def test_ollama_tags_returns_json_object(monkeypatch):

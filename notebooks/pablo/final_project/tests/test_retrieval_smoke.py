@@ -54,6 +54,7 @@ def test_retriever_service_returns_top_k_with_expected_fields(tmp_path: Path):
         chunk_size=settings.chunk_size,
         chunk_overlap=settings.chunk_overlap,
         source=settings.pdf_path.name,
+        tokenizer_name=settings.tokenizer_name,
     )
     persist_dir = tmp_path / "chroma"
     embeddings = DummyEmbeddingFunction()

@@ -2,15 +2,22 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from typing import Any, Callable
+from typing import Any, Callable, Protocol
 
 from src.config import settings
 from src.prompts import INSUFFICIENT_EVIDENCE_MESSAGE, RAG_SYSTEM_PROMPT, build_rag_prompt
+from src.reranking import RerankerService
 from src.retrieval import RetrievedChunk, RetrieverService
 from src.utils_ollama import ollama_generate
 
 
 OLLAMA_GENERATE_FN = Callable[..., dict[str, Any]]
+
+
+class ChunkReranker(Protocol):
+    def rerank(self, query: str, chunks: list[RetrievedChunk]) -> list[RetrievedChunk]: ...
+
+
 STOPWORDS = {
     "a",
     "as",
@@ -95,6 +102,11 @@ def _build_sources(chunks: list[RetrievedChunk], *, max_sources: int) -> list[di
                 "source": chunk.source,
                 "chunk_id": chunk.chunk_id,
                 "score": round(chunk.score, 3),
+                "rerank_score": (
+                    round(float(chunk.metadata["rerank_score"]), 3)
+                    if "rerank_score" in chunk.metadata
+                    else None
+                ),
                 "snippet": chunk.text[:280].strip(),
             }
         )
@@ -112,6 +124,8 @@ class RAGService:
         self,
         *,
         retriever: RetrieverService | None = None,
+        reranker: ChunkReranker | None = None,
+        rerank_enabled: bool | None = None,
         ollama_base_url: str | None = None,
         ollama_model: str | None = None,
         retrieval_k: int = 5,
@@ -119,6 +133,18 @@ class RAGService:
         generate_fn: OLLAMA_GENERATE_FN = ollama_generate,
     ) -> None:
         self.retriever = RetrieverService() if retriever is None else retriever
+        self.rerank_enabled = settings.rerank_enabled if rerank_enabled is None else rerank_enabled
+        if self.rerank_enabled:
+            self.reranker = (
+                RerankerService(
+                    settings.default_reranker_model,
+                    top_n=settings.default_rerank_top_n,
+                )
+                if reranker is None
+                else reranker
+            )
+        else:
+            self.reranker = reranker
         self.ollama_base_url = (
             settings.default_ollama_base_url if ollama_base_url is None else ollama_base_url
         )
@@ -133,13 +159,19 @@ class RAGService:
             raise ValueError("query must not be empty.")
 
         retrieved_chunks = self.retriever.retrieve(normalized_query, k=self.retrieval_k)
-        if not _has_sufficient_evidence(normalized_query, retrieved_chunks):
+        ranked_chunks = retrieved_chunks
+        if self.rerank_enabled and self.reranker is not None:
+            reranked_chunks = self.reranker.rerank(normalized_query, retrieved_chunks)
+            if reranked_chunks:
+                ranked_chunks = reranked_chunks
+
+        if not _has_sufficient_evidence(normalized_query, ranked_chunks):
             return {
                 "answer": INSUFFICIENT_EVIDENCE_MESSAGE,
                 "sources": [],
             }
 
-        context_chunks = retrieved_chunks[: self.max_sources]
+        context_chunks = ranked_chunks[: self.max_sources]
         prompt = build_rag_prompt(normalized_query, context_chunks)
         response = self.generate_fn(
             self.ollama_base_url,

@@ -5,6 +5,7 @@ from typing import Any
 
 from langchain_core.documents import Document
 from pypdf import PdfReader
+from transformers import AutoTokenizer
 
 
 def _normalize_text(text: str) -> str:
@@ -56,7 +57,9 @@ def chunk_pages(
     chunk_size: int,
     chunk_overlap: int,
     source: str,
+    tokenizer_name: str,
 ) -> list[Document]:
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     _validate_chunking(chunk_size, chunk_overlap)
 
     documents: list[Document] = []
@@ -67,13 +70,15 @@ def chunk_pages(
         if not text:
             continue
 
+        token_ids = tokenizer.encode(text, add_special_tokens=False)
+        step = chunk_size - chunk_overlap
         chunk_index = 1
-        start = 0
 
-        while start < len(text):
-            end = _next_chunk_end(text, start, chunk_size)
-            chunk_text = text[start:end].strip()
-
+        for start in range(0, len(token_ids), step):
+            window = token_ids[start : start + chunk_size]
+            if not window:
+                continue
+            chunk_text = tokenizer.decode(window, skip_special_tokens=True).strip()
             if chunk_text:
                 documents.append(
                     Document(
@@ -81,19 +86,38 @@ def chunk_pages(
                         metadata={
                             "source": source,
                             "page": page_number,
-                            "chunk_id": f"{page_number}-{chunk_index}",
-                        },
-                    )
+                            "chunk_id": f"{page_number}-{chunk_index}",},
+                    ),
                 )
-
-            if end >= len(text):
-                break
-
-            next_start = max(0, end - chunk_overlap)
-            if next_start <= start:
-                next_start = end
-
-            start = next_start
             chunk_index += 1
+
+        # start = 0
+        # chunk_index = 1
+
+        # while start < len(text):
+        #     end = _next_chunk_end(text, start, chunk_size)
+        #     chunk_text = text[start:end].strip()
+
+        #     if chunk_text:
+        #         documents.append(
+        #             Document(
+        #                 page_content=chunk_text,
+        #                 metadata={
+        #                     "source": source,
+        #                     "page": page_number,
+        #                     "chunk_id": f"{page_number}-{chunk_index}",
+        #                 },
+        #             )
+        #         )
+
+        #     if end >= len(text):
+        #         break
+
+        #     next_start = max(0, end - chunk_overlap)
+        #     if next_start <= start:
+        #         next_start = end
+
+        #     start = next_start
+        #     chunk_index += 1
 
     return documents
