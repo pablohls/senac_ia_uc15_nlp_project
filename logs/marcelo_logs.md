@@ -745,3 +745,146 @@ Parágrafo 3º - Nos termos do Decreto n.º 95.247/87, e baseado na Declaração
        Usuário                 Backend                 Dados
 
 
+27/04/2026
+
+baixei um gravação de reuniao de um hospital Sao Joao de Deus
+e usei o whisper para transcrever.
+e tive este resultado
+
+
+meu_env) 202473505@senacgoon.local@VDI-UBU-GPU-05:~/audios_para_transcrever$ whisper "reuniao Sao Joao de Deus 15-04-2025.mp3" --language Portuguese --model small
+[00:00.000 --> 00:05.000]  a Câmara Municipal de Divinópolis através da Comissão de Saúde recebe o diretor
+[00:05.000 --> 00:10.000]  presidente do Complexo de Saúde, São João de Deus, para realizar a prestação de contas
+[00:10.000 --> 00:15.000]  das verbas públicas recebidas pela instituição e dos seus novos projetos.
+[00:15.000 --> 00:20.000]  Informo que essa prestação de contas está em transmissão ao vivo pela TV Câmara
+[00:20.000 --> 00:27.000]  através do canal 13.1, através do canal do Legislativo Oficial no YouTube e também pelo Facebook.
+[00:28.000 --> 00:33.000]  Destaco e registra a presença dos membros dos vereadores da 16ª Legislatura,
+[00:33.000 --> 00:37.000]  membros da Comissão de Saúde. Convido o presidente da Comissão de Saúde,
+[00:37.000 --> 00:42.000]  vereador doutor Delano Santiago, para saudar e dar início à reunião.
+[00:44.000 --> 00:48.000]  Boa tarde ao representante do São João de Deus.
+[00:48.000 --> 00:56.000]  Eu vou deixar marcado que seja a última vez que essa instituição que tem dinheiro público municipal
+[00:56.000 --> 01:01.000]  vai fazer uma prestação de contas sem abordar a Comissão de Saúde.
+[01:01.000 --> 01:07.000]  Nós não fomos convidados, ora alguma, a não ser no final essa comissão tem presidente
+[01:07.000 --> 01:11.000]  e ele vai ter que ser respeitado e a casa também.
+[01:11.000 --> 01:19.000]  Então, o presidente me passou a presidência para que eu tecnicamente conduzisse a reunião.
+[01:19.000 --> 01:25.000]  É inaceitável não ser convidado como presidente da Comissão de Saúde,
+[01:25.000 --> 01:32.000]  nominalmente, inclusive, para participar da reunião e colocarem no nome do presidente da casa.
+[01:32.000 --> 01:39.000]  É inaceitável, mas nós vamos continuar o trabalho porque a gente precisa de prestar contas do dinheiro
+[01:39.000 --> 01:43.000]  que usa para o povo de divinópolis e que sai dessa casa.
+[01:43.000 --> 01:49.000]  Mas não façam novamente, porque nós abraçamos você sempre, de coração aberto,
+[01:49.000 --> 01:56.000]  sempre pusemos a inteira disposição, nós precisamos de ser respeitados.
+[01:56.000 --> 02:01.000]  E respeito-se da, é trocando de ambas as partes.
+[02:01.000 --> 02:06.000]  Sempre que eu fui à instituição representando a casa e na presidência da Comissão de Saúde
+[02:06.000 --> 02:12.000]  me declarei solícito, aberto e sempre disposto a ajudar.
+[02:12.000 --> 02:17.000]  E esqueceram, como diz o filme, esqueceram de mim, mas eu estou aqui.
+[02:17.000 --> 02:21.000]  Fáciles mais não, porque ficou feio para a instituição.
+[02:21.000 --> 02:26.000]  Mas agora eu dou as boas-vindas, tenho um material aqui muito bacana,
+[02:26.000 --> 02:28.000]  que é o que eu acho que eles vão apresentar aqui para nós,
+[02:28.000 --> 02:34.000]  é uma pressação de conta do dinheiro municipal, porque é o que nos interessa
+[02:34.000 --> 02:38.000]  aonde tem dinheiro emendas do município, a gente precisa saber
+[02:38.000 --> 02:41.000]  porque o município vem atrás é de nós aqui.
+[02:41.000 --> 02:45.000]  Então nós vamos dar andamento, a condução dos trabalhos.
+[02:45.000 --> 02:49.000]  Quem vai apresentar diretamente, vai ser quem?
+[02:49.000 --> 02:51.000]  Virgínia.
+[02:51.000 --> 02:54.000]  Ah tá, o Dr. André, ele está convidado então,
+[02:54.000 --> 02:57.000]  pode, por favor, Dr. André, como presidente da instituição,
+[02:57.000 --> 02:59.000]  ele vai apresentar os dados para nós.
+[02:59.000 --> 03:03.000]  Essa reunião, ela é aberta a todos os colegas, vereadores,
+[03:03.000 --> 03:06.000]  em qualquer momento que qualquer umqueira questioná-lo,
+
+
+apos varias tentativas 
+consegui identigicar os falantes
+
+[11:10] FALANTE 03:  Então, mesmo que a gente tenha 53 cidades de municípios,
+[11:13] FALANTE 03:  a gente tem que ter interesse.
+[11:15] FALANTE 03:  Porque a pressação de conta é nossa.
+[11:17] FALANTE 03:  Então, nós queremos dinheiro de divinópolis.
+[11:19] FALANTE 03:  Segundo, eu queria ter uma dúvida.
+[11:21] FALANTE 03:  Me encontraram, que tem dinheiro ali
+[11:23] FALANTE 03:  para comprar jaleco para o povo de hospital.
+[11:26] FALANTE ?:  Vai me encontrar que o povo do hospital
+[11:28] FALANTE 03:  vem debitado, o jaleco, quando é entregado, entrega.
+[11:32] FALANTE 03:  Então...
+[11:33] FALANTE ?:  Não entendi, vereador.
+[11:35] FALANTE 02:  O pessoal do hospital tem dito...
+[11:37] FALANTE 02:  Que eles tem pago o próprio uniforme
+[11:39] FALANTE 03:  debitado em porcentagem no salário.
+[11:42] FALANTE 02:  Não, debitado no salário não.
+[11:44] FALANTE 02:  O que tem acontecido...
+[11:46] FALANTE 02:  Não, isso realmente não acontece.
+[11:48] FALANTE 03:  Então, eles não pagam o uniforme dele.
+[11:51] FALANTE 02:  Eles pagam.
+[11:52] FALANTE 03:  Ah, porque me encontraram, está vendo?
+[11:54] FALANTE 02:  O que tem acontecido...
+[11:55] FALANTE 03:  Mas ele não deu emenda para pagar.
+[11:57] FALANTE 02:  Determinadas equipes querem ter
+[11:59] FALANTE 02:  algum uniforme diferenciado.
+[12:01] FALANTE 02:  Se vocês andarem no hospital lá hoje,
+[12:03] FALANTE 02:  a gente vai encontrar uniforme rosa,
+[12:06] FALANTE 02:  a gente vai encontrar uniforme roxo.
+[12:08] FALANTE 02:  A instituição está uniformizando com a emenda do senhor,
+[12:11] FALANTE ?:  mas a gente, infelizmente,
+[12:13] FALANTE 02:  houve um problema com o anterior prestador,
+[12:15] FALANTE 02:  tivemos que recomeçar todo o processo
+[12:17] FALANTE 02:  e já está agora o atual,
+[12:19] FALANTE 02:  era um daquilo, inclusive de Vinópolis,
+[12:21] FALANTE 02:  porque a gente sempre toma cuidado
+[12:23] FALANTE 02:  de favorecer as pessoas da região.
+[12:25] FALANTE 02:  A gente tem muita essa consciência
+[12:27] FALANTE 02:  que a gente falou do ESG ali.
+[12:29] FALANTE 02:  E aí, inclui a governância,
+[12:31] FALANTE 02:  inclui o social.
+[12:33] FALANTE 02:  Então, buscamos empresas aqui,
+[12:35] FALANTE 02:  fizemos a cotação,
+[12:37] FALANTE 02:  e nenhuma empresa conseguiu entregar
+[12:39] FALANTE 02:  o que é necessário.
+[12:41] FALANTE ?:  Falava, senhor presidente.
+[12:43] FALANTE ?:  Emitida.
+[12:45] FALANTE 05:  Doutor André, Doutor Delano,
+[12:47] FALANTE 05:  questionamento do Doutor Delano,
+[12:49] FALANTE 05:  presidente dessa condição,
+[12:51] FALANTE 05:  é muito importante porque justamente,
+[12:53] FALANTE 05:  vou falar com toda humildade,
+[12:55] FALANTE 05:  por não achar justo que o servidor
+[12:57] FALANTE 05:  da instituição do complexo,
+[12:59] FALANTE 05:  esse enorme complexo onjão de Deus,
+[13:01] FALANTE ?:  que ganha hoje a receita,
+[13:03] FALANTE 05:  e aí eu vou falar de emenda,
+[13:05] FALANTE 05:  já passou nesses últimos quatro anos
+[13:07] FALANTE 05:  mais de 50 milhões de reais
+[13:09] FALANTE 05:  do posto do dinheiro público.
+[13:11] FALANTE 05:  Isso é bom a gente falar isso aí.
+[13:13] FALANTE 05:  Eu não acho justo
+[13:15] FALANTE 05:  que o funcionário do hospital
+[13:17] FALANTE 05:  São João de Deus custei o jaleque.
+[13:19] FALANTE 05:  Por isso, mandei a emenda significativa.
+[13:21] FALANTE 05:  Talvez, eu sou campeão de emenda ali,
+[13:23] FALANTE 05:  se você olhar aqui, quadrinho ali,
+[13:25] FALANTE 05:  eu só perco pra demir.
+[13:27] FALANTE 05:  375 mil reais pra gente poder
+[13:29] FALANTE 05:  custiar pra você servidor
+[13:31] FALANTE 05:  do hospital São João de Deus.
+[13:33] FALANTE 05:  Esse jaleque.
+[13:35] FALANTE 05:  Não é possível que aí,
+[13:37] FALANTE 05:  mesmo tendo a emenda,
+[13:39] FALANTE 05:  o hospital São João de Deus não quere acreditar
+[13:41] FALANTE 05:  que mesmo cobre do servidor
+[13:43] FALANTE 05:  esse material,
+[13:45] FALANTE 05:  que é importante, que é o uniforme,
+[13:47] FALANTE 05:  é o jaleco.
+[13:49] FALANTE 05:  O jaleco hoje é uma ferramenta de uniforme
+[13:51] FALANTE 05:  pro profissional, seja médico,
+[13:53] FALANTE 05:  seja também enfermeiro, técnico,
+[13:55] FALANTE 05:  de enfermagem, farmacêutico,
+[13:57] FALANTE 05:  toda equipe do hospital São João de Deus.
+[13:59] FALANTE 05:  Então, a gente destinou essa emenda
+[14:01] FALANTE 05:  justamente pra tirar,
+[14:03] FALANTE 05:  pra aliviar pra esses trabalhadores
+[14:05] FALANTE 05:  que pagam
+[14:07] FALANTE 05:  até o ano passado,
+[14:09] FALANTE 05:  e não é justo pagar esse ano,
+[14:11] FALANTE 05:  esses uniformes aí.
+[14:13] FALANTE 05:  Com certeza, vereador,
+[14:15] FALANTE 02:  isso aí, como eu disse pra senhor,
+[14:17] FALANTE 02:  pra essa casa,
