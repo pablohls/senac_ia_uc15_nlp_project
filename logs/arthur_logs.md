@@ -51,3 +51,26 @@
 07, 08 e 09/04
     - Primeiras tentativas de implementação com RAG. Após alguns testes mal-sucedidos no Google Colab, consegui rodar um protótipo localmente, no Cursor. Todavia, os resultados não foram satisfatórios
 
+13/04
+    - Minha IDE não estava devidamente integrada ao GitHub, daí fiz o ajuste. Segui na procura de outras formas de otimizar nosso RAG atual
+
+14/04
+    - Discussões em grupo acerca do desempenho atual e dos melhores resultados alcançados
+
+15/04
+    - Novo estudo de possíveis projetos de NLP para compor o último Projeto Integrador
+
+16/04
+    - Primeiras tentativas de implementação do PyBibX, ferramenta de NLP para pesquisa cientométrica (possível Projeto Integrador)
+
+22/04
+    - Estudo da documentação e de artigos do PyBibX
+
+23/04
+    - Estudo da documentação e de artigos do PyBibX
+
+27/04
+    - Discussão em grupo dos resultados alcançados e preparação da apresentação
+
+28/04
+    - Discussão em grupo dos resultados alcançados e preparação da apresentação
