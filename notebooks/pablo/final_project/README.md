@@ -47,23 +47,72 @@ O subprojeto cobre:
    poetry install
    ```
 
-2. Inicie o Ollama:
-
-   ```bash
-   ollama serve
-   ```
-
-3. Baixe o modelo padrao:
-
-   ```bash
-   ollama pull qwen2.5:7b
-   ```
-
-4. Garanta que o PDF esteja em:
+2. Garanta que o PDF esteja em:
 
    ```text
    data/pdf/sindilojas_2025_2026.pdf
    ```
+
+3. Escolha o modo de execucao:
+
+   - local (Poetry + Ollama instalado na maquina)
+   - Docker Compose (app + Ollama em containers)
+
+## Setup com Docker Compose
+
+Os comandos abaixo assumem que voce esta em `notebooks/pablo/final_project`.
+
+### 1. Subir stack (CPU)
+
+```bash
+docker compose up -d --build
+```
+
+### 2. Subir stack com GPU NVIDIA
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d --build
+```
+
+### 3. Baixar manualmente o modelo padrao (gemma4:e4b)
+
+Linux/macOS (bash):
+
+```bash
+bash scripts/pull-ollama-model.sh
+```
+
+Windows (PowerShell):
+
+```powershell
+./scripts/pull-ollama-model.ps1
+```
+
+Opcionalmente, informe outro modelo:
+
+```bash
+bash scripts/pull-ollama-model.sh gemma4:e4b
+```
+
+### 4. Validar Ollama e abrir UI
+
+```bash
+docker compose exec ollama ollama list
+```
+
+A UI fica em `http://localhost:8501`.
+
+### 5. Parar stack
+
+```bash
+docker compose down
+```
+
+Para remover volumes persistentes (modelos Ollama e cache de embeddings):
+
+```bash
+docker compose down -v
+```
 
 ## Configuracao
 
@@ -178,8 +227,9 @@ A UI exibe:
 
 - O desenvolvimento pode acontecer sem acesso a uma VM com GPU
 - Os testes automatizados do RAG usam mocks para nao depender do Ollama
-- O fluxo real de geracao exige um endpoint Ollama acessivel em `http://localhost:11434`
+- O fluxo real de geracao exige um endpoint Ollama acessivel em `http://localhost:11434` (local) ou `http://ollama:11434` (Compose)
 - Quando o Ollama nao estiver acessivel, o RAG e a UI mostram falha explicita; nao existe fallback automatico
+- O primeiro pull do modelo pode levar varios minutos, dependendo da rede e do hardware
 
 ## Testes
 
@@ -194,11 +244,11 @@ poetry -C "$REPO_ROOT" run bash -lc 'cd "$0/notebooks/pablo/final_project" && PY
 
 Uma reproducao minima da v1 segue estes passos:
 
-1. instalar dependencias com Poetry
+1. instalar dependencias com Poetry ou subir os containers com Docker Compose
 2. garantir o PDF em `data/pdf/`
-3. iniciar o Ollama e baixar `qwen2.5:7b`
+3. iniciar o Ollama e baixar `gemma4:e4b` (manual)
 4. rebuild do indice em `data/chroma/`
-5. consultar o RAG ou subir o Streamlit (streamlit run app.py --server.address 0.0.0.0 --server.port 8501)
+5. consultar o RAG ou subir o Streamlit (`streamlit run app.py --server.address 0.0.0.0 --server.port 8501`)
 
 ## Status final
 

@@ -70,7 +70,6 @@ def build_settings() -> Settings:
             "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         ),
         default_ollama_base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
-        # default_ollama_model=os.getenv("OLLAMA_MODEL", "qwen2.5:7b"),
         default_ollama_model=os.getenv("OLLAMA_MODEL", "gemma4:e4b"),
         tokenizer_name=os.getenv(
             "TOKENIZER_NAME",
