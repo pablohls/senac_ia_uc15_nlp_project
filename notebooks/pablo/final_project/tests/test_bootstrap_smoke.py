@@ -38,11 +38,11 @@ def test_build_settings_uses_expected_defaults(monkeypatch):
     assert settings.pdf_path == settings.project_root / "data" / "pdf" / "sindilojas_2025_2026.pdf"
     assert settings.chroma_path == settings.project_root / "data" / "chroma"
     assert settings.chroma_collection_name == "sindilojas_pdf"
-    assert settings.default_ollama_model == "qwen2.5:7b"
+    assert settings.default_ollama_model == "gemma4:e4b"
     assert settings.chunk_size == 160
     assert settings.chunk_overlap == 40
-    assert settings.default_retrieval_k == 10
-    assert settings.rerank_enabled is False
+    assert settings.default_retrieval_k == 15
+    assert settings.rerank_enabled is True
     assert settings.default_rerank_top_n == 5
     assert settings.default_reranker_model == "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
 
@@ -61,7 +61,7 @@ def test_ollama_tags_returns_json_object(monkeypatch):
 def test_ollama_generate_returns_json_object(monkeypatch):
     def fake_post(url, json, timeout):
         assert url == "http://localhost:11434/api/generate"
-        assert json["model"] == "qwen2.5:7b"
+        assert json["model"] == "gemma4:e4b"
         assert json["prompt"] == "Ola"
         assert json["stream"] is False
         assert json["system"] == "Responda em PT-BR."
@@ -73,7 +73,7 @@ def test_ollama_generate_returns_json_object(monkeypatch):
 
     response = ollama_generate(
         "http://localhost:11434",
-        "qwen2.5:7b",
+        "gemma4:e4b",
         "Ola",
         system="Responda em PT-BR.",
         options={"temperature": 0},

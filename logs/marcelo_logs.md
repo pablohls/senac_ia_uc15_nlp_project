@@ -888,3 +888,107 @@ consegui identigicar os falantes
 [14:13] FALANTE 05:  Com certeza, vereador,
 [14:15] FALANTE 02:  isso aí, como eu disse pra senhor,
 [14:17] FALANTE 02:  pra essa casa,
+
+28/04/2026
+
+tentando melhorar a transcrição consegui estes resultados:
+
+58:48] FALANTE 02:  Está no nome da ordem até hoje.
+[58:50] FALANTE 03:  Ele doou para essa ordem que faria.
+[58:52] FALANTE 03:  Mas enfim, a prestação, isso que nós estamos aqui, é para a prestação de contas.
+[58:57] FALANTE 03:  Depois em outro momento a gente...
+[58:58] FALANTE 03:  Eu até não entendi quem colocou essa pauta, porque nunca foi prestação de contas mesmo.
+[59:02] FALANTE 03:  Foi colocado para nós que deveriam prestar contas do trimestre.
+[59:05] FALANTE 03:  Não, né?
+[59:06] FALANTE 03:  Mas foi.
+[59:07] FALANTE 03:  Foi.
+[59:08] FALANTE 03:  Na verdade, a gente...
+[59:09] FALANTE 03:  É, painel de emendas e coisas, não...
+[59:10] FALANTE 03:  A finalidade nessa, não.
+[59:11] FALANTE 03:  O intuito era mais...
+[59:12] FALANTE 03:  A finalidade foi em sofias muito bem.
+[59:14] FALANTE 03:  Era mais?
+[59:15] FALANTE 03:  Então o trabalho...
+[59:16] FALANTE 03:  A gente tornou as emendas dos colegas e estiraram as dúvidas desde os que ficaram.
+[59:22] FALANTE 03:  Para onde foi cada emenda, acho que ficou bacana.
+[59:24] FALANTE 03:  E cada um incentivou, né?
+[59:26] FALANTE 03:  Está o nome deles aqui.
+[59:27] FALANTE 03:  Eu acho que esse é um incentivo.
+[59:28] FALANTE 03:  Fulano, você direcionou e isso aqui é bacana.
+[59:32] FALANTE 03:  Eu acho que tem que manter.
+[59:33] FALANTE 03:  Isso foi bonito.
+[59:34] FALANTE 03:  Porque ele viu o que ele fez e está em andamento, ficou claro.
+[59:38] FALANTE 03:  Alguns de nós estamos aqui, uns estão até mortos.
+[59:41] FALANTE 03:  Mas pelo menos sabe o final, onde foi a verba dele.
+[59:45] FALANTE 03:  Eu agradeço muito.
+[59:46] FALANTE 03:  Está encerrado a sessão.
+[59:47] FALANTE 03:  Muito obrigado.
+[59:48] FALANTE 02:  Obrigado.
+
+============================================================
+✅ Arquivo salvo: transcricao_com_falantes.txt
+Total de segmentos transcritos: 1448
+Total de falantes detectados: 6
+============================================================
+
+Coloquei para rodar no COLAB
+
+consegui este resultado
+============================================================
+TRANSCRIÇÃO DA REUNIÃO COMPLETA
+============================================================
+
+Arquivo: reuniao Sao Joao de Deus 15-04-2025.mp3.mpeg
+Tamanho: 27.5 MB
+Este é o áudio completo da reunião de 60 minutos
+
+Carregando modelo Whisper (small)...
+Isso pode levar alguns segundos...
+
+Transcrevendo áudio completo...
+Isso pode levar vários minutos. Aguarde...
+--------------------------------------------------
+[00:00.000 --> 00:04.240]  a Câmara Municipal de Divinópolis, através da Comissão de Saúde,
+[00:04.240 --> 00:08.080]  recebe o diretor presidente do Complexo de Saúde, São João de Deus,
+[00:08.080 --> 00:13.120]  para realizar a prestação de contas das verbas públicas recebidas pela instituição
+[00:13.120 --> 00:15.000]  e dos seus novos projetos.
+[00:15.000 --> 00:20.240]  Informo que esta prestação de contas está em transmissão ao vivo pela TV Câmara
+[00:20.240 --> 00:25.640]  através do canal 13.1, através do canal do Legislativo Oficial no YouTube
+[00:25.640 --> 00:27.440]  e também pelo Facebook.
+[00:27.440 --> 00:32.680]  Destaco e registro a presença dos membros dos vereadores da 16ª Legislatura,
+[00:32.680 --> 00:34.600]  membros da Comissão de Saúde.
+[00:34.600 --> 00:39.000]  Convido o presidente da Comissão de Saúde, vereador doutor Delano Santiago,
+[00:39.000 --> 00:41.560]  para saudar e dar início à reunião.
+[00:41.560 --> 00:47.200]  Boa tarde ao representante do São João de Deus.
+[00:47.200 --> 00:53.720]  Eu vou deixar marcado que seja a última vez que essa instituição,
+
+E as perguntas no colob  no Convenção do Sindilojas consegui isto:
+============================================================
+CONVENÇÃO SINDILOJAS 2025-2026
+Digite sua pergunta
+Digite 'sair' para encerrar
+============================================================
+
+Pergunta: endereço sindilojas
+
+============================================================
+RESPOSTA:
+1. Paulo-Sindilojas- SP
+2. e-mail: sindilojas@sindilojas-sp
+3. Paulo-Sindilojas- SP
+4. e-mail: sindilojas@sindilojas-sp
+5. Paulo-Sindilojas- SP
+============================================================
+
+Pergunta: reajuste salario
+
+============================================================
+RESPOSTA:
+1. dezembro de 2025, deverá aplicar o reajuste salarial já no mês de  competência dezembro, e
+2. 2025, o reajuste e a tabela constante na
+3. todos os fins o reajuste salarial integral previsto no caput desta cláusul a
+4. instrumento,   as diferenças salariais em razão do reajuste salarial previst o no caput  desta
+5. 1º de setembro de 2024 até 31 de agosto de 2025, terão os reajustes das  cláusulas anteriores
+============================================================
+
+cada vez que tenta melhorar piora mais :( 
